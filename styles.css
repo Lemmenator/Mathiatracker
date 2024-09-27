@@ -34,16 +34,6 @@ body {
     border: 2px solid black;
     padding: 20px;
     margin: 10px;
-    cursor: pointer;
-    transition: background-color 0.2s;
-}
-
-.box.highlight {
-    background-color: green;
-}
-
-.box:not(.highlight):hover {
-    background-color: #e0e0e0;
 }
 
 .mini-boxes {
@@ -58,4 +48,18 @@ body {
     margin: 5px;
     cursor: pointer;
     transition: background-color 0.2s;
+}
+
+.mini-box.highlight {
+    background-color: green;
+}
+
+.mini-box:not(.highlight):hover {
+    background-color: #e0e0e0;
+}
+
+.subheader {
+    font-size: 0.5em; /* Half the size of the header */
+    font-family: 'Arial', sans-serif; /* Modern font */
+    margin-top: 10px;
 }
